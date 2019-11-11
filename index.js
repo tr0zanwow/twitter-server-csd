@@ -9,7 +9,6 @@ const Twit = require('twit')
 app.use(cors)
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-
 app.post('/',function(req,res){
     const id=req.body.id;
     const statusText = req.body.statusText;
