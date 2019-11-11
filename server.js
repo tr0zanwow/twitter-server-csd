@@ -1,7 +1,7 @@
-const express = require('express')
+import express from 'express'
 // const bodyParser = require('body-parser')
 
-const app=express();
+const app = express();
 // const Twit = require('twit')
 
 // app.use(bodyParser.urlencoded({ extended: false }));
