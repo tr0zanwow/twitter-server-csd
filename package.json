@@ -1,0 +1,25 @@
+{
+  "name": "twitter-server-csd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tr0zanwow/twitter-server-csd.git"
+  },
+  "author": "Tr0zAnwOw~",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tr0zanwow/twitter-server-csd/issues"
+  },
+  "homepage": "https://github.com/tr0zanwow/twitter-server-csd#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "twit": "^2.2.11"
+  }
+}
