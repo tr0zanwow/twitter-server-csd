@@ -29,6 +29,11 @@ const app=express();
 app.get('/',(req,res) => {
     res.send("Hello there");
 })
-app.listen(3000,function() {
-    console.log("Started on PORT 3000");
+
+const PORT = process.env.PORT || 3000;
+export const server = app.listen(PORT, () => {
+const host = server.address().address;
+const port = server.address().port;
+
+  console.log(`Listening at http://${host}:${port}`);
 });
